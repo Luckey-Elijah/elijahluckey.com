@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [NxWelcomeComponent, RouterModule],
-  selector: 'elijahluckey.com-root',
+  selector: 'elijahluckey-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })

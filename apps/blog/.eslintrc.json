@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "elijahluckeyCom",
+            "prefix": "elijahluckey",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "elijahluckey-com",
+            "prefix": "elijahluckey",
             "style": "kebab-case"
           }
         ]

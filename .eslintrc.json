@@ -37,6 +37,16 @@
         "jest": true
       },
       "rules": {}
+    },
+    {
+      "files": ["*.ts"],
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@angular-eslint/recommended"
+      ],
+      "rules": {
+        "@angular-eslint/prefer-on-push-component-change-detection": ["error"]
+      }
     }
   ]
 }

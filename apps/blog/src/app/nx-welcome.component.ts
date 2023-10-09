@@ -1,8 +1,13 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import {
+  Component,
+  ViewEncapsulation,
+  ChangeDetectionStrategy,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'elijahluckey.com-nx-welcome',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  selector: 'elijahluckey-nx-welcome',
   standalone: true,
   imports: [CommonModule],
   template: `
